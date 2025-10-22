@@ -1,0 +1,195 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Good afternoon",
+        "What's up",
+        "How are you",
+        "Is anyone there?",
+        "Yo"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! How may I assist you?",
+        "Greetings! How can I be of service?",
+        "Hello! Nice to meet you!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I'm leaving",
+        "Have a good day",
+        "Talk to you later",
+        "Catch you later",
+        "Exit",
+        "Quit"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Take care! Come back soon!",
+        "It was nice talking to you. Bye!",
+        "Farewell! Hope to chat again soon!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks for the help",
+        "Appreciate it",
+        "Thanks a lot",
+        "Many thanks",
+        "Cheers"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!",
+        "My pleasure!",
+        "Glad I could assist!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "What can you do",
+        "Who are you",
+        "What are you",
+        "What is your purpose",
+        "Tell me about yourself",
+        "What do you do",
+        "How can you help me"
+      ],
+      "responses": [
+        "I'm a chatbot created to assist you with various queries. I can have conversations, answer questions, and help you with information!",
+        "I'm an AI chatbot designed to help answer your questions and have friendly conversations.",
+        "I'm here to chat with you and provide assistance with any questions you might have!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name",
+        "What should I call you",
+        "What's your name",
+        "Do you have a name",
+        "Who are you"
+      ],
+      "responses": [
+        "I'm ChatBot! Nice to meet you!",
+        "You can call me ChatBot!",
+        "My name is ChatBot, your friendly AI assistant!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Can you help me",
+        "What should I do",
+        "Help me",
+        "Support",
+        "I'm stuck"
+      ],
+      "responses": [
+        "Of course! I'm here to help. What do you need assistance with?",
+        "I'd be happy to help! What's the issue?",
+        "Sure! Please tell me what you need help with.",
+        "I'm here for you. How can I assist?"
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you",
+        "What's your age",
+        "Are you old",
+        "When were you created",
+        "What is your age"
+      ],
+      "responses": [
+        "I'm timeless! I exist in the digital realm.",
+        "Age is just a number for an AI like me!",
+        "I was recently created, but I'm constantly learning and improving!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather",
+        "How's the weather",
+        "Is it raining",
+        "Will it rain today",
+        "Weather forecast",
+        "What's the temperature"
+      ],
+      "responses": [
+        "I don't have access to real-time weather data, but you can check weather websites or apps for accurate information!",
+        "I'm not connected to weather services right now, but I recommend checking a weather app for the latest forecast!",
+        "Sorry, I can't check the weather, but weather.com or your local weather app should have that information!"
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke",
+        "Say something funny",
+        "Make me laugh",
+        "Do you know any jokes",
+        "Joke please",
+        "Say a joke"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "What do you call a bear with no teeth? A gummy bear!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "What do you call fake spaghetti? An impasta!",
+        "Why don't programmers like nature? It has too many bugs!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it",
+        "What's the time",
+        "Tell me the time",
+        "What is the current time",
+        "Time please"
+      ],
+      "responses": [
+        "I don't have access to real-time clock, but you can check your device for the current time!",
+        "Sorry, I can't tell the exact time, but your device should show it!",
+        "I'm not synchronized with a clock, but check your system time!"
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        "I don't know",
+        "Not sure",
+        "Maybe",
+        "I'm not certain",
+        "Could be"
+      ],
+      "responses": [
+        "That's okay! Is there anything else I can help you with?",
+        "No problem! Feel free to ask me anything else.",
+        "That's fine! Let me know if you have any other questions."
+      ]
+    }
+  ]
+}
