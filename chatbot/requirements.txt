@@ -1,0 +1,8 @@
+# Chatbot Requirements
+# The chatbot uses only Python standard library
+# No external dependencies required!
+
+# For future enhancements, you might want:
+# numpy>=1.20.0 (for advanced numerical operations)
+# scikit-learn>=1.0.0 (for machine learning enhancements)
+# nltk>=3.6 (for advanced NLP features)
